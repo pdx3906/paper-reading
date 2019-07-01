@@ -193,7 +193,7 @@ $$
 
 <img src="image/table3.PNG">
 
-<img src="image/table4.png">
+<img src="image/table4.PNG">
 
 &emsp;&emsp;在Table 3的B行，我们观察到，减少attention key大小$d_k$伤害了模型的质量。这表明确定兼容性并不容易，一个比点积更复杂的兼容函数可能是有益的。我们进一步观察行C和D，和预期一样，更大的模型更好，而且dropout对防止过拟合非常有帮助。在行E中，我们用学习到的位置编码替代了我们的正弦位置编码，然后观察到和基本模型几乎相同的结果。
 
